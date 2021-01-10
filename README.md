@@ -15,7 +15,7 @@ Simple **code only** example how to make an audio visualizer with Arduino and th
 # Code information
 * The AudioData component in my Unity-Script is a custom Script which gives me the amplitude of a song as a float and divides the audio spectrum into 64 different audio bands.
 * These 64 audio bands are stored in an array and I'm using 30 of them to control my LED strip
-* I won't give you the code for my script but if you need something like this take a look at this function https://docs.unity3d.com/ScriptReference/AudioSource.GetSpectrumData.html
+* I can't give you the code for my script but if you need something like this take a look at this function https://docs.unity3d.com/ScriptReference/AudioSource.GetSpectrumData.html
 * Also there is this great tutorial on what my script is based on https://www.youtube.com/watch?v=5pmoP1ZOoNs&list=PL3POsQzaCw53p2tA6AWf7_AWgplskR0Vo
 
 # Contact
