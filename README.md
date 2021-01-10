@@ -6,7 +6,15 @@ Simple **code only** example how to make an audio visualizer with Arduino and th
 * Ws2812b LED strip, each can be controlled individually and it only needs one pin
 * 15-20W power supply (for 60 LEDs, each 5V and up to 50mA)
 
-# Basic explanation
+# Software
+* Here you can download a small Unity program I made that gets the audio data and sends it to the arduino
+* It listens to the desktop audio and I did not figure out how to select a single audio source so it mixes all sounds together
+* Just unzip the folder and click on Arduino_Unity.exe to start the program
+* You can also start multiple instances to control different ports
+* Also note that this is a side project so I didn't put to much effort into it
+* Download: https://www.dropbox.com/s/ynq3cjoebwcvb05/Arduino%20-%20Unity.zip?dl=0
+
+# Basic software and script explanation
 * Unity sends 36 Bytes to the Arduino as string
 * First 6 Bytes contain the Amplitude
 * Last 30 Bytes contain different audio bands the spectrum has been divided into
